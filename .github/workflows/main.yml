@@ -1,3 +1,8 @@
+on:
+  push:
+    branches:
+    - master
+    - first-action
 jobs:
   build:
     name: Hello world action
